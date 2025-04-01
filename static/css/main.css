@@ -82,11 +82,10 @@ footer {
 
 .top-section {
     position: relative;
-    padding: 0rem 0rem;
+    padding: 10rem 0;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     height: 25rem;
-    background: var(--top-section-bg);
 }
 
 .top-section h2 {
@@ -107,7 +106,6 @@ footer {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
-
 
 section header h2{
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
