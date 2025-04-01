@@ -82,9 +82,9 @@ footer {
 
 .top-section {
     position: relative;
-    padding: 20rem 0rem;
+    padding: 0rem 0rem;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     height: 25rem;
     background: var(--top-section-bg);
 }
