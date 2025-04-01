@@ -6,6 +6,27 @@ const section_names = ['home', 'publications', 'patents', 'awards']
 
 
 window.addEventListener('DOMContentLoaded', event => {
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+    
+    // 读取 localStorage 里的主题设置
+    if (localStorage.getItem('theme') === 'dark') {
+        body.classList.add('dark-mode'); // 启用暗色模式
+    }
+    
+    // 监听按钮点击，切换明暗模式
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+    
+        // 存储用户偏好到 localStorage
+        if (body.classList.contains('dark-mode')) {
+            localStorage.setItem('theme', 'dark');
+            themeToggle.innerText = '☀️'; // 变成太阳图标
+        } else {
+            localStorage.setItem('theme', 'light');
+            themeToggle.innerText = '🌙'; // 变成月亮图标
+        }
+    });
 
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
