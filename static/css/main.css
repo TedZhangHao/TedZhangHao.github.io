@@ -22,8 +22,8 @@ body.dark-mode {
     --icon-color: #f0a500;
 }
 
-.dark-mode .mainNav {
-    background-color: #1e1e1e;
+.dark-mode .navbar {
+    background-color: #1e1e1e !important;
     --text-color: #f0a500;
 }
 
@@ -68,6 +68,7 @@ body.dark-mode {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
+
 
 section header h2{
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
@@ -133,7 +134,7 @@ section .main-body{
 }
 
 #avatar img {
-    height: max(130px,min(200px,calc(100vw/6)));
+    height: max(150px,min(230px,calc(100vw/6)));
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -148,6 +149,8 @@ section .main-body{
     border: none;
     font-size: 0.5rem;
     padding: 0;
+    weight: 5px;
+    height: 5px;
     vertical-align: middle;
     border-radius: 5px;
     margin-left: 10px; /* 调整间距，让它贴近菜单 */
