@@ -63,7 +63,7 @@ body.dark-mode {
 }
 
 footer {
-    color: #ffffff !important;
+    --text-color: #ffffff !important;
     text-decoration: none; 
 }
 
@@ -78,10 +78,10 @@ footer {
 
 .top-section {
     position: relative;
-    padding: 10rem 0;
+    padding: 0rem 0;
     background-position: center;
     background-size: cover;
-    height: 35rem;
+    height: 40rem;
     background: var(--top-section-bg);
 }
 
