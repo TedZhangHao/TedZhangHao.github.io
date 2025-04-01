@@ -2,7 +2,13 @@
 
 
 :root{
-    --h-title-color:#3948d2;
+    --h-title-color:#1c64c9;
+    --background-color: #ffffff;
+}
+
+[data-theme="dark"] {
+    --background-color: #3a3535;
+    --text-color: #fcfcfc; 
 }
 
 .header {
