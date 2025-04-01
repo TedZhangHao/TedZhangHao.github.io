@@ -1,0 +1,19 @@
+
+
+[![senli1073](https://img.shields.io/badge/TedHaoZhang-github-blue?logo=github)](https://github.com/TedZhangHao)
+
+Started from Spring 2025, I am pursuing my Master's Degree in Electrical & Computer Engineering, at Johns Hopkins University. I am currently looking for research opportunities, please feel free to contact me!
+
+#### Email
+hzhan276[at]jh.edu
+
+#### Education
+M.S.E, Electrical and Computer Engineering, Johns Hopkins University, 2024—2026 (expected).\
+B.E., Intelligent Medical Engineering, Shandong University, 2020—2024.
+
+#### Work Experience
+Algorithm Engineering Intern, Xunfei Healthcare, Research Institute, iFLYTEK CO.LTD, 2024.7-11.
+
+#### Research Interests
+Deep Learning, Artificial Intelligence, Time Series Analysis, Natural Language Processing.
+
