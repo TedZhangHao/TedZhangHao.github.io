@@ -41,12 +41,25 @@ body.dark-mode {
     color: #f0a500 !important;
 }
 
+.navbar .navbar-brand {
+    color: #333; /* 默认深色 */
+}
+
+.dark-mode .navbar .navbar-brand {
+    color: #ffffff !important; /* 让标题变成白色 */
+}
+
+/* 鼠标悬停时 */
+.dark-mode .navbar .navbar-brand:hover {
+    color: #f0a500 !important;
+}
+
 .dark-mode .container a {
     color: #bb86fc; /* hyperlink */
 }
 
 .dark-mode footer a {
-    color: inherit;
+    color: #ffffff !important;
     text-decoration: none; 
 }
 
@@ -166,10 +179,8 @@ section .main-body{
 #theme-toggle {
     background: none;
     border: none;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     padding: 0;
-    weight: 12px;
-    height: 12px;
     vertical-align: middle;
     border-radius: 5px;
     margin-left: 10px; /* 调整间距，让它贴近菜单 */
