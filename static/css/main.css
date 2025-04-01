@@ -26,7 +26,7 @@ body.dark-mode {
 }
 
 .dark-mode a {
-    color: #bb86fc; /* 亮紫色 */
+    color: #bb86fc; /* hyperlink */
 }
 
 .header {
@@ -89,7 +89,13 @@ section .main-body{
     background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
 }
 
+.dark-mode .bg-gradient-primary-to-secondary-light {
+    background: linear-gradient(45deg, #2b2b2b, #1e1e1e) !important;
+}
 
+.dark-mode .bg-gradient-primary-to-secondary-gray {
+    background: linear-gradient(45deg, #3a3a3a, #2e2e2e) !important;
+}
 
 .on-top {
     position: relative;
@@ -145,7 +151,10 @@ section .main-body{
     transition: background-color 0.3s ease-in-out;
 }
 
-#theme-toggle:hover {
-    background-color: #1459a1;
+.dark-mode #theme-toggle {
+    color: var(--icon-color);
 }
 
+.dark-mode #theme-toggle:hover {
+    color: #ffcc00; /* 暗色模式下的 hover 颜色 */
+}
