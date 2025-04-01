@@ -31,6 +31,10 @@ body.dark-mode {
     --text-color: #f0a500;
 }
 
+.navbar .nav-link:hover:hover {
+    color: #1c64c9;
+}
+
 /* 深色模式下导航栏字体颜色 */
 .dark-mode .navbar .nav-link {
     color: #ffffff !important; /* 让文字变白色 */
@@ -58,7 +62,7 @@ body.dark-mode {
     color: #bb86fc; /* hyperlink */
 }
 
-.dark-mode footer a {
+footer {
     color: #ffffff !important;
     text-decoration: none; 
 }
@@ -77,9 +81,8 @@ body.dark-mode {
     padding: 10rem 0;
     background-position: center;
     background-size: cover;
-    height: 25rem;
+    height: 35rem;
     background: var(--top-section-bg);
-    transition: background 0.5s ease-in-out;
 }
 
 .top-section h2 {
