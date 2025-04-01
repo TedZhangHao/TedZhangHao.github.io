@@ -1,6 +1,7 @@
 
 
 [![TedHaoZhang](https://img.shields.io/badge/TedHaoZhang-github-blue?logo=github)](https://github.com/TedZhangHao)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-blue?logo=google-scholar)](https://scholar.google.com/citations?user=_If8s9QAAAAJ&hl=en)
 
 Started from Spring 2025, I am pursuing my Master's Degree in Electrical & Computer Engineering, at Johns Hopkins University. I am currently looking for research opportunities, please feel free to contact me!
 
