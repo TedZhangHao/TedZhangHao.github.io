@@ -9,7 +9,7 @@ Started from Spring 2025, I am pursuing my Master's Degree in Electrical & Compu
 hzhan276[at]jh.edu
 
 #### Education
-M.S.E, Electrical and Computer Engineering, Johns Hopkins University, 2024-2026 (expected).\
+M.S.E, Electrical and Computer Engineering, Johns Hopkins University, 2025-2026 (expected).\
 B.E., Intelligent Medical Engineering, Shandong University, 2020-2024.\
 H.S., Beijing No.8 High School, 2017-2020. 
 

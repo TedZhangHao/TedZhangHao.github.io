@@ -31,8 +31,12 @@ body.dark-mode {
     --text-color: #f0a500;
 }
 
-.navbar .nav-link:hover:hover {
-    color: #1c64c9;
+.navbar .nav-link:hover {
+    color: #1c64c9 !important;
+}
+
+.navbar .navbar-brand:hover {
+    color: #1c64c9 !important;
 }
 
 /* 深色模式下导航栏字体颜色 */
@@ -62,14 +66,14 @@ body.dark-mode {
     color: #bb86fc; /* hyperlink */
 }
 
-.dark-mode .footer a {
-    color: #ffffff !important;
+.footer a {
+    --texr-color: #ffffff !important;
 }
 
-footer {
-    --text-color: #ffffff !important;
-    text-decoration: none; 
+.dark-mode .footer a {
+    --texr-color: #ffffff !important;
 }
+
 
 .header {
     border-bottom: solid 2px var(--h-title-color);
