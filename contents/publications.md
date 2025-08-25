@@ -1,16 +1,15 @@
-<div style="border:1px solid #ddd; border-radius:8px; padding:12px; margin-bottom:10px; display:flex; align-items:center;">
-
-<img src="https://github.com/TedZhangHao/Few-shot-Time-series-Classification/blob/main/pro_pic/Workflow.png" width="160" style="margin-right:15px; border-radius:4px;"/>
-
-<div>
-<strong>H. Zhang</strong>, T. Li*, A. Jing, S. Yang  
-Sequence-Spectrogram Fusion Network for Wind Turbine Diagnosis through Few-Shot Time-Series Classification  
-<strong><a href="https://www.sciencedirect.com/journal/advanced-engineering-informatics">Advanced Engineering Informatics</a></strong>, 2025  
-<a href="https://www.sciencedirect.com/science/article/pii/S147403462400627X">[Paper]</a>  
-<a href="https://github.com/TedZhangHao/Few-shot-Time-series-Classification">[Code]</a>
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+    <img src="https://raw.githubusercontent.com/TedZhangHao/Few-shot-Time-series-Classification/main/pro_pic/Workflow.png" 
+         style="width: 280px; max-width: 40%; margin-right: 15px; border-radius: 6px;"/>
+    <div>
+        <strong>H. Zhang</strong>, T. Li*, A. Jing, S. Yang  
+        Sequence-Spectrogram Fusion Network for Wind Turbine Diagnosis through Few-Shot Time-Series Classification,  
+        <em>Advanced Engineering Informatics</em>, 2025  
+        [<a href="https://link-to-paper.com" target="_blank">Paper</a>] 
+        [<a href="https://github.com/TedZhangHao/Few-shot-Time-series-Classification" target="_blank">Code</a>]
+    </div>
 </div>
 
-</div>
 
 - Z. Pang, <strong>H. Zhang</strong>, T. Li*, Hybrid Fine-Tuning in LargeLanguage Model Learning for Machinery Fault Diagnosis, <strong>22nd IEEE International Conference on Industrial Informatics (<a href="https://indin2024.ieee-ies.org/">INDIN</a>)</strong>, 2024 [[Paper]](https://ieeexplore.ieee.org/abstract/document/10774330)
 
