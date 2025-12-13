@@ -14,7 +14,7 @@ hzhan276[at]jh.edu
 
 #### Education 🎓
 M.S.E, Computer Science, Johns Hopkins University, 2025-2026 (expected).\
-B.E., Intelligent Medical Engineering, Shandong University, 2020-2024.\
+B.E., Intelligent Medical Engineering, Shandong University, 2020-2024.
 
 
 #### Work Experience 💻
