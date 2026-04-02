@@ -21,34 +21,18 @@ body.dark-mode {
     --icon-color: #f0a500;
 }
 
-/* 统一全站 section / 分块底色 */
-section,
+/* 统一页面各 section 底色，不再区分浅灰块 */
 .bg-gradient-primary-to-secondary-light,
 .bg-gradient-primary-to-secondary-gray {
     background: var(--background-color) !important;
 }
 
-/* 如果 publications 或其他块是 card 风格，也统一去掉区分感 */
-.card,
-.section-box,
-.publication-card,
-.publications-section,
-#publications,
-#papers {
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
+/* section 本体也统一到底色 */
+section {
+    background-color: var(--background-color);
 }
 
-.navbar .nav-link {
-    color: #333;
-}
-
-.dark-mode .navbar {
-    background-color: #1e1e1e !important;
-    --text-color: #f0a500;
-}
-
+/* 社交图标 */
 .social-icons .icon-github {
     color: #000000;
 }
@@ -62,26 +46,34 @@ section,
     align-items: center;
 }
 
+/* 导航栏 */
+.navbar .nav-link {
+    color: #333;
+}
+
+.dark-mode .navbar {
+    background-color: #1e1e1e !important;
+    --text-color: #f0a500;
+}
+
 .navbar .nav-link:hover {
     color: #1c64c9 !important;
+}
+
+.navbar .navbar-brand {
+    color: #333;
 }
 
 .navbar .navbar-brand:hover {
     color: #1c64c9 !important;
 }
 
-/* 深色模式下导航栏字体颜色 */
 .dark-mode .navbar .nav-link {
     color: #ffffff !important;
 }
 
-/* 深色模式下导航 hover */
 .dark-mode .navbar .nav-link:hover {
     color: #f0a500 !important;
-}
-
-.navbar .navbar-brand {
-    color: #333;
 }
 
 .dark-mode .navbar .navbar-brand {
@@ -113,14 +105,12 @@ section,
 }
 
 /* footer 链接 */
-.footer a {
+.footer a,
+footer a {
     color: #ffffff !important;
 }
 
-.dark-mode .footer a {
-    color: #ffffff !important;
-}
-
+/* 页头 */
 .header {
     border-bottom: solid 2px var(--h-title-color);
     z-index: 10000;
@@ -130,6 +120,7 @@ section,
     background-color: var(--h-title-color);
 }
 
+/* 顶部大图 */
 .top-section {
     position: relative;
     padding: 10rem 0;
@@ -157,6 +148,7 @@ section,
     background: rgba(0, 0, 0, 0.5);
 }
 
+/* section 标题和正文 */
 section header h2 {
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
     color: var(--h-title-color);
@@ -170,10 +162,8 @@ section .main-body {
     line-height: 2.4rem;
 }
 
-.dark-mode .bg-gradient-primary-to-secondary-light {
-    background: var(--background-color) !important;
-}
-
+/* 深色模式下也统一 section 底色 */
+.dark-mode .bg-gradient-primary-to-secondary-light,
 .dark-mode .bg-gradient-primary-to-secondary-gray {
     background: var(--background-color) !important;
 }
@@ -200,6 +190,7 @@ section .main-body {
     background: rgba(0, 0, 0, 0.4);
 }
 
+/* 头像 */
 #avatar {
     position: relative;
     height: 0;
@@ -221,6 +212,7 @@ section .main-body {
     }
 }
 
+/* 主题切换按钮 */
 #theme-toggle {
     background: none;
     border: none;
@@ -235,4 +227,44 @@ section .main-body {
 
 #theme-toggle:hover {
     transform: scale(1.1);
+}
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    margin: 0;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none !important;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #444;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.social-link span {
+    line-height: 1;
+}
+
+.social-link:hover {
+    opacity: 0.8;
+    transform: translateY(-1px);
+}
+
+.social-icons .icon-github {
+    color: #000000;
+}
+
+.dark-mode .social-icons .icon-github {
+    color: #ffffff;
+}
+
+.dark-mode .social-link {
+    color: #eaeaea;
 }

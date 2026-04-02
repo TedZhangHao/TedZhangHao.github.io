@@ -1,16 +1,19 @@
 <p align="left" class="social-icons">
-  <a href="https://github.com/TedZhangHao" target="_blank" title="GitHub" class="icon-github" aria-label="GitHub">
-    <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+  <a href="https://github.com/TedZhangHao" target="_blank" title="GitHub" class="icon-github social-link" aria-label="GitHub">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
       <path fill="currentColor" d="M12 .5C5.73.5.75 5.48.75 11.75c0 5.02 3.25 9.27 7.76 10.78.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.16.69-3.83-1.34-3.83-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.73 1.17 1.73 1.17 1.01 1.73 2.66 1.23 3.31.94.1-.73.39-1.23.71-1.51-2.52-.29-5.18-1.26-5.18-5.62 0-1.24.44-2.25 1.17-3.05-.12-.29-.51-1.47.11-3.06 0 0 .95-.3 3.12 1.17a10.8 10.8 0 0 1 5.68 0c2.16-1.47 3.11-1.17 3.11-1.17.62 1.59.23 2.77.12 3.06.73.8 1.17 1.81 1.17 3.05 0 4.37-2.66 5.32-5.2 5.61.4.35.76 1.03.76 2.08 0 1.5-.01 2.72-.01 3.09 0 .3.2.66.79.55 4.5-1.51 7.75-5.76 7.75-10.78C23.25 5.48 18.27.5 12 .5Z"/>
     </svg>
+    <span>GitHub</span>
   </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://scholar.google.com/citations?user=_If8s9QAAAAJ&hl=en" target="_blank" title="Google Scholar" aria-label="Google Scholar">
-    <img src="https://cdn.simpleicons.org/googlescholar/4285F4" width="24" height="24" alt="Google Scholar" />
+  
+  <a href="https://scholar.google.com/citations?user=_If8s9QAAAAJ&hl=en" target="_blank" title="Google Scholar" class="social-link" aria-label="Google Scholar">
+    <img src="https://cdn.simpleicons.org/googlescholar/4285F4" width="22" height="22" alt="Google Scholar" />
+    <span>Scholar</span>
   </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/%E6%98%8A-%E5%BC%A0-731509333/?locale=en" target="_blank" title="LinkedIn" aria-label="LinkedIn">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="24" height="24" alt="LinkedIn" />
+
+  <a href="https://www.linkedin.com/in/%E6%98%8A-%E5%BC%A0-731509333/?locale=en" target="_blank" title="LinkedIn" class="social-link" aria-label="LinkedIn">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="22" height="22" alt="LinkedIn" />
+    <span>LinkedIn</span>
   </a>
 </p>
 
