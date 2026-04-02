@@ -43,32 +43,10 @@
 </div>
 
 <div class="pub-card">
-    <div class="pub-image-wrap">
-        <img src="https://via.placeholder.com/1200x700?text=ISCER+2024"
-             class="pub-image" alt="ISCER paper figure" />
-    </div>
-    <div class="pub-content">
-        <p class="pub-authors">
-            B. Yang, G. Yang, K. Yang, <strong>H. Zhang</strong>, T. Li*
-        </p>
-        <p class="pub-title">
-            Hierarchical Informative Path Planning for Active Sensing and Field Reconstruction
-        </p>
-        <p class="pub-venue">
-            <strong>3rd International Symposium on Control Engineering and Robotics</strong>
-            (<strong><a href="https://www.is-cer.org/index.html" target="_blank">ISCER</a></strong>), 2024
-        </p>
-        <p class="pub-links">
-            [<a href="https://dl.acm.org/doi/abs/10.1145/3679409.3679463" target="_blank">Paper</a>]
-        </p>
-    </div>
-</div>
-
-<div class="pub-card">
-    <div class="pub-image-wrap">
+    <!-- <div class="pub-image-wrap">
         <img src="https://via.placeholder.com/1200x700?text=RICAI+2023"
              class="pub-image" alt="RICAI paper figure" />
-    </div>
+    </div> -->
     <div class="pub-content">
         <p class="pub-authors">
             <strong>H. Zhang</strong>, Z. Pang, J. Wang, T. Li*
@@ -82,6 +60,28 @@
         </p>
         <p class="pub-links">
             [<a href="https://ieeexplore.ieee.org/abstract/document/10489648" target="_blank">Paper</a>]
+        </p>
+    </div>
+</div>
+
+<div class="pub-card">
+    <!-- <div class="pub-image-wrap">
+        <img src="https://via.placeholder.com/1200x700?text=ISCER+2024"
+             class="pub-image" alt="ISCER paper figure" />
+    </div> -->
+    <div class="pub-content">
+        <p class="pub-authors">
+            B. Yang, G. Yang, K. Yang, <strong>H. Zhang</strong>, T. Li*
+        </p>
+        <p class="pub-title">
+            Hierarchical Informative Path Planning for Active Sensing and Field Reconstruction
+        </p>
+        <p class="pub-venue">
+            <strong>3rd International Symposium on Control Engineering and Robotics</strong>
+            (<strong><a href="https://www.is-cer.org/index.html" target="_blank">ISCER</a></strong>), 2024
+        </p>
+        <p class="pub-links">
+            [<a href="https://dl.acm.org/doi/abs/10.1145/3679409.3679463" target="_blank">Paper</a>]
         </p>
     </div>
 </div>
