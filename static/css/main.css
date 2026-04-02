@@ -1,8 +1,7 @@
 @import "./styles.css";
 
-
-:root{
-    --h-title-color:#1c64c9;
+:root {
+    --h-title-color: #1c64c9;
     --background-color: #ffffff;
     --text-color: #000000;
     --top-section-bg: linear-gradient(45deg, #fcfcfc, #ffffff);
@@ -15,11 +14,30 @@ body {
 }
 
 body.dark-mode {
-    --h-title-color:#f0a500;
+    --h-title-color: #f0a500;
     --background-color: #3a3535;
     --text-color: #ffffff;
     --top-section-bg: linear-gradient(45deg, #2b2b2b, #1e1e1e);
     --icon-color: #f0a500;
+}
+
+/* 统一全站 section / 分块底色 */
+section,
+.bg-gradient-primary-to-secondary-light,
+.bg-gradient-primary-to-secondary-gray {
+    background: var(--background-color) !important;
+}
+
+/* 如果 publications 或其他块是 card 风格，也统一去掉区分感 */
+.card,
+.section-box,
+.publication-card,
+.publications-section,
+#publications,
+#papers {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 .navbar .nav-link {
@@ -30,6 +48,7 @@ body.dark-mode {
     background-color: #1e1e1e !important;
     --text-color: #f0a500;
 }
+
 .social-icons .icon-github {
     color: #000000;
 }
@@ -42,6 +61,7 @@ body.dark-mode {
     display: inline-flex;
     align-items: center;
 }
+
 .navbar .nav-link:hover {
     color: #1c64c9 !important;
 }
@@ -52,43 +72,54 @@ body.dark-mode {
 
 /* 深色模式下导航栏字体颜色 */
 .dark-mode .navbar .nav-link {
-    color: #ffffff !important; /* 让文字变白色 */
+    color: #ffffff !important;
 }
 
-/* 鼠标悬停时的颜色 */
+/* 深色模式下导航 hover */
 .dark-mode .navbar .nav-link:hover {
     color: #f0a500 !important;
 }
 
 .navbar .navbar-brand {
-    color: #333; /* 默认深色 */
+    color: #333;
 }
 
 .dark-mode .navbar .navbar-brand {
-    color: #ffffff !important; /* 让标题变成白色 */
+    color: #ffffff !important;
 }
 
-/* 鼠标悬停时 */
 .dark-mode .navbar .navbar-brand:hover {
     color: #f0a500 !important;
 }
 
-.dark-mode .container a {
-    color: #bb86fc; /* hyperlink */
-}
-
-.footer a {
-    --texr-color: #ffffff !important;
-}
+/* 正文链接 */
 .container a {
-    color:  #1c64c9;
+    color: #1c64c9;
     text-decoration: none;
 }
 
-.dark-mode .footer a {
-    --texr-color: #ffffff !important;
+.container a:hover {
+    color: #1553a4;
+    text-decoration: underline;
 }
 
+.dark-mode .container a {
+    color: #bb86fc;
+}
+
+.dark-mode .container a:hover {
+    color: #d2a8ff;
+    text-decoration: underline;
+}
+
+/* footer 链接 */
+.footer a {
+    color: #ffffff !important;
+}
+
+.dark-mode .footer a {
+    color: #ffffff !important;
+}
 
 .header {
     border-bottom: solid 2px var(--h-title-color);
@@ -126,34 +157,25 @@ body.dark-mode {
     background: rgba(0, 0, 0, 0.5);
 }
 
-section header h2{
+section header h2 {
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
     color: var(--h-title-color);
     font-size: 2.3rem;
     line-height: 4rem;
 }
 
-section .main-body{
+section .main-body {
     font-size: 1.3rem;
     font-weight: 200;
     line-height: 2.4rem;
 }
 
-
-.bg-gradient-primary-to-secondary-light {
-    background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
-}
-
-.bg-gradient-primary-to-secondary-gray {
-    background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
-}
-
 .dark-mode .bg-gradient-primary-to-secondary-light {
-    background: linear-gradient(45deg, #2b2b2b, #1e1e1e) !important;
+    background: var(--background-color) !important;
 }
 
 .dark-mode .bg-gradient-primary-to-secondary-gray {
-    background: linear-gradient(45deg, #3a3a3a, #2e2e2e) !important;
+    background: var(--background-color) !important;
 }
 
 .on-top {
@@ -178,11 +200,10 @@ section .main-body{
     background: rgba(0, 0, 0, 0.4);
 }
 
-
 #avatar {
     position: relative;
     height: 0;
-    top:min(-65px,max(-100px,calc(-1*100vw/12)));
+    top: min(-65px, max(-100px, calc(-1 * 100vw / 12)));
     max-width: 55em;
     margin: 0 1.5rem 0 0;
     float: right;
@@ -190,7 +211,7 @@ section .main-body{
 }
 
 #avatar img {
-    height: max(150px,min(230px,calc(100vw/6)));
+    height: max(150px, min(230px, calc(100vw / 6)));
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -207,12 +228,10 @@ section .main-body{
     padding: 0;
     vertical-align: middle;
     border-radius: 5px;
-    margin-left: 10px; /* 调整间距，让它贴近菜单 */
+    margin-left: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
-
-
 
 #theme-toggle:hover {
     transform: scale(1.1);
