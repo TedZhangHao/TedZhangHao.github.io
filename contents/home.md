@@ -32,9 +32,11 @@
 
 
 ### About me 🙌
-Hi there 👋! My name is **Hao Zhang (张昊)**. I am currently pursuing my Master's Degree in **Computer Science** at **Johns Hopkins University**, where I also work at [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) under the supervision by [Prof. Laureano Moro-Velazquez](https://pages.jh.edu/lmorove1/index.html). Before coming to JHU, I completed my Bachelor’s degree in **Intelligent Medical Engineering** at **Shandong University**. During that time, I worked as a **research assistant** in the [Key Laboratory of Machine Intelligence & System Control, Ministry of Education](https://misc.sdu.edu.cn/index.htm), where I focused on **Deep learnning-based time series analysis** and **Few-shot learning**, supervised by [Prof. Teng Li](https://faculty.sdu.edu.cn/liteng123/zh_CN/index.htm).  
+Hi there 👋! My name is **Hao Zhang (张昊)**. I am currently pursuing my Master's Degree in **Computer Science** at **Johns Hopkins University**, where I also work as a research student at [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) advised by [Prof. Laureano Moro-Velazquez](https://pages.jh.edu/lmorove1/) and [Phillip Koehn](https://www.cs.jhu.edu/~phi/).
 
-My current research interests focus on **SpeechLLMs Naturalness** and **LLM-enhanced data augmentation for aspect-based sentiment analysis (ABSA)**. I am conducting independent research on these areas and with excitement to discuss and collaborate. Please feel free to contact me!
+Before coming to JHU, I completed my Bachelor’s degree in **Intelligent Medical Engineering** at **Shandong University**. During that time, I worked as a **research assistant** in the [Key Laboratory of Machine Intelligence & System Control, Ministry of Education](https://misc.sdu.edu.cn/index.htm), where I focused on **Deep learnning-based time series analysis** and **Few-shot learning**, supervised by [Prof. Teng Li](https://faculty.sdu.edu.cn/liteng123/zh_CN/index.htm).  
+
+My current research interests spans **SpeechLLMs Naturalness**, **Expressive Machine Translation** and **LLM-enhanced data augmentation for aspect-based sentiment analysis (ABSA)**. I am conducting independent research on these areas and with excitement to discuss and collaborate. Please feel free to contact me!
 
 #### Contact 📧
 haozhang1639[at]gmail.com (preferred)\
