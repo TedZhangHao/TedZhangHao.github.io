@@ -27,18 +27,51 @@ body.dark-mode {
     background: var(--background-color) !important;
 }
 
-/* section 本体也统一到底色 */
+/* section 本体统一底色 + 压缩上下间距 */
 section {
     background-color: var(--background-color);
+    padding: 18px 0;
+    margin: 0;
 }
 
-/* 社交图标 */
+/* section 标题区域收紧 */
+section header {
+    margin-bottom: 8px;
+}
+
+section header h2 {
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    color: var(--h-title-color);
+    font-size: 2.3rem;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* 正文 */
+section .main-body {
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+section .main-body > *:first-child {
+    margin-top: 0;
+}
+
+section .main-body > *:last-child {
+    margin-bottom: 0;
+}
+
+/* 首页里图标和 About me 的距离 */
 .social-icons {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     align-items: center;
-    margin: 0 0 14px 0;
+    margin: 0 0 22px 0;
     line-height: 1;
 }
 
@@ -72,6 +105,34 @@ section {
 
 .dark-mode .social-link {
     color: #eaeaea;
+}
+
+/* home 里标题别再贴上去 */
+#home-md h1,
+#home-md h2,
+#home-md h3,
+#home-md h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Publications 再额外收紧一点 */
+#publications {
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+
+#publications header {
+    margin-bottom: 4px;
+}
+
+#publications .main-body {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.pub-card:first-child {
+    margin-top: 0;
 }
 
 /* 导航栏 */
@@ -176,23 +237,6 @@ footer a {
     background: rgba(0, 0, 0, 0.5);
 }
 
-/* section 标题和正文 */
-section header h2 {
-    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-    color: var(--h-title-color);
-    font-size: 2.3rem;
-    line-height: 4rem;
-}
-
-section .main-body {
-    font-size: 1.15rem;
-    font-weight: 300;
-    line-height: 2rem;
-}
-section .main-body > *:last-child {
-    margin-bottom: 0;
-}
-
 /* 深色模式下也统一 section 底色 */
 .dark-mode .bg-gradient-primary-to-secondary-light,
 .dark-mode .bg-gradient-primary-to-secondary-gray {
@@ -248,7 +292,7 @@ section .main-body > *:last-child {
     display: flex;
     align-items: flex-start;
     gap: 20px;
-    margin-bottom: 28px;
+    margin: 0 0 22px 0;
     padding: 18px;
     border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 16px;
