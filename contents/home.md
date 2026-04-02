@@ -5,7 +5,7 @@
     </svg>
     <span>GitHub</span>
   </a>
-  
+
   <a href="https://scholar.google.com/citations?user=_If8s9QAAAAJ&hl=en" target="_blank" title="Google Scholar" class="social-link" aria-label="Google Scholar">
     <img src="https://cdn.simpleicons.org/googlescholar/4285F4" width="22" height="22" alt="Google Scholar" />
     <span>Scholar</span>
@@ -14,6 +14,18 @@
   <a href="https://www.linkedin.com/in/%E6%98%8A-%E5%BC%A0-731509333/?locale=en" target="_blank" title="LinkedIn" class="social-link" aria-label="LinkedIn">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="22" height="22" alt="LinkedIn" />
     <span>LinkedIn</span>
+  </a>
+
+  <a href="https://orcid.org/0009-0009-6205-2520" target="_blank" title="ORCID" class="social-link" aria-label="ORCID">
+    <img src="https://cdn.simpleicons.org/orcid/A6CE39" width="22" height="22" alt="ORCID" />
+    <span>ORCID</span>
+  </a>
+
+  <a href="mailto:hzhan276@jhu.edu" title="Email" class="social-link" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+      <path fill="currentColor" d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 2v.511l9 6 9-6V7H3Zm18 10V9.489l-8.445 5.63a1 1 0 0 1-1.11 0L3 9.489V17h18Z"/>
+    </svg>
+    <span>Email</span>
   </a>
 </p>
 
