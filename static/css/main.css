@@ -202,8 +202,6 @@ section .main-body{
 #theme-toggle:hover {
     transform: scale(1.1);
 }
-
-
 .home-layout {
   display: flex;
   align-items: flex-start;
@@ -212,13 +210,12 @@ section .main-body{
 
 .home-side-visual {
   flex: 0 0 220px;
-  width: 220px;
+  position: relative;
 }
 
 .city-vertical {
-  position: fixed;
-  top: 88px;              /* 导航栏下面一点 */
-  left: calc(50% - 570px + 24px);  
+  position: sticky;
+  top: 110px;
   width: 220px;
   height: 620px;
   border-radius: 18px;
@@ -228,7 +225,6 @@ section .main-body{
   background-repeat: no-repeat;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-  z-index: 100;
 }
 
 .city-vertical::before {
@@ -282,13 +278,6 @@ section .main-body{
 .home-main-content {
   flex: 1;
   min-width: 0;
-  margin-left: 262px;   /* 给 fixed 左栏让出空间 */
-}
-
-@media (max-width: 1200px) {
-  .city-vertical {
-    left: 32px;
-  }
 }
 
 @media (max-width: 992px) {
@@ -297,21 +286,15 @@ section .main-body{
   }
 
   .home-side-visual {
+    flex: none;
     width: 100%;
-    height: auto;
   }
 
   .city-vertical {
     position: relative;
     top: 0;
-    left: 0;
     width: 100%;
     height: 260px;
-    margin-bottom: 24px;
-  }
-
-  .home-main-content {
-    margin-left: 0;
   }
 
   .city-card {
