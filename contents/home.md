@@ -1,22 +1,44 @@
+﻿<div class="hero-grid">
+    <article class="hero-card">
+        <h2>Hi, I am Hao Zhang.</h2>
+        <p>I am currently pursuing my M.S.E. in <strong>Computer Science</strong> at <strong>Johns Hopkins University</strong>, where I work with the <a href="https://www.clsp.jhu.edu/" target="_blank" rel="noreferrer">Center for Language and Speech Processing</a> and am advised by <a href="https://pages.jh.edu/lmorove1/index.html" target="_blank" rel="noreferrer">Prof. Laureano Moro-Velazquez</a>.</p>
+        <p>Before JHU, I completed my B.E. in <strong>Intelligent Medical Engineering</strong> at <strong>Shandong University</strong>. My recent work has centered on speech, language models, and practical machine learning systems for real-world tasks.</p>
+    </article>
+    <aside class="info-card">
+        <p><strong>Current focus</strong> SpeechLLM naturalness and LLM-enhanced data augmentation for aspect-based sentiment analysis.</p>
+        <p><strong>Open to</strong> Research collaboration, applied ML projects, and conversations about speech and language technologies.</p>
+        <p><strong>Based in</strong> Baltimore for school, with Beijing as the visual anchor of this site.</p>
+    </aside>
+</div>
 
+<div class="quick-facts">
+    <div class="fact-card">
+        <p class="fact-label">Research Areas</p>
+        <p class="fact-value">Speech LLMs, data augmentation, sentiment analysis, time-series learning</p>
+    </div>
+    <div class="fact-card">
+        <p class="fact-label">Education</p>
+        <p class="fact-value">Johns Hopkins University, M.S.E.<br />Shandong University, B.E.</p>
+    </div>
+    <div class="fact-card">
+        <p class="fact-label">Contact</p>
+        <p class="fact-value">haozhang1639@gmail.com<br />hzhan276@jh.edu</p>
+    </div>
+</div>
 
-[![TedHaoZhang](https://img.shields.io/badge/TedHaoZhang-github-blue?logo=github)](https://github.com/TedZhangHao)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-blue?logo=google-scholar)](https://scholar.google.com/citations?user=_If8s9QAAAAJ&hl=en)
+## About
 
-### About me 🙌
-Hi there 👋! My name is **Hao Zhang (张昊)**. I am currently pursuing my Master's Degree in **[Computer Science](https://www.cs.jhu.edu/)** at **Johns Hopkins University (JHU)**, where I also work at Center for Language and Speech Processing ([CLSP](https://www.clsp.jhu.edu/)) under the supervision by [Prof. Laureano Moro-Velazquez](https://pages.jh.edu/lmorove1/index.html). Before coming to JHU, I completed my Bachelor’s degree in **Intelligent Medical Engineering** at **Shandong University**. During that time, I worked as a **research assistant** in the **Key Laboratory of Machine Intelligence & System Control, Ministry of Education**, where I focused on **Deep learnning-based time series analysis** and **Few-shot learning**, supervised by [Prof. Teng Li](https://faculty.sdu.edu.cn/liteng123/zh_CN/index.htm).  
+I enjoy problems that sit between research and implementation: making models work better, understanding failure modes, and turning raw ideas into systems that are actually useful. My background includes time-series classification, machinery fault diagnosis, and more recent work on speech and language technologies.
 
-My current research interests focus on **SpeechLLMs Naturalness** and **LLM-enhanced data augmentation for aspect-based sentiment analysis (ABSA)**. I am conducting independent research on these areas and with excitement to discuss and collaborate. Please feel free to contact me!
+## Research interests
 
-#### Contact 📧
-haozhang1639[at]gmail.com (preferred)\
-hzhan276[at]jh.edu
+- Speech LLMs and naturalness evaluation
+- LLM-assisted data augmentation for NLP tasks
+- Data-centric machine learning workflows
+- Few-shot and low-resource learning
 
-#### Education 🎓
-M.S.E, Computer Science, Johns Hopkins University, 2025-2026 (expected).\
-B.E., Intelligent Medical Engineering, Shandong University, 2020-2024.
+## What you can find here
 
-
-#### Work Experience 💻
-Algorithm Engineering Intern (LLM Optimization), Xunfei Healthcare, Research Institute, iFLYTEK CO.LTD, 2024.7-11.
-
+- A cleaner publications page with larger, framed figures
+- A CV-style page for education, experience, awards, and patents
+- A hobbies page for the personal side of the homepage
