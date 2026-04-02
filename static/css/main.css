@@ -202,3 +202,108 @@ section .main-body{
 #theme-toggle:hover {
     transform: scale(1.1);
 }
+.home-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 42px;
+}
+
+.home-side-visual {
+  flex: 0 0 220px;
+  position: relative;
+}
+
+.city-vertical {
+  position: sticky;
+  top: 110px;
+  width: 220px;
+  height: 620px;
+  border-radius: 18px;
+  background-image: url('../assets/img/beijing.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.city-vertical::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.18);
+}
+
+.city-card {
+  position: absolute;
+  right: 16px;
+  bottom: 18px;
+  left: 16px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.profile-inside {
+  width: 120px;
+  height: 155px;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.side-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.9);
+}
+
+.side-icons a {
+  color: #333;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+
+.side-icons a:hover {
+  color: #0d6efd;
+  transform: translateY(-1px);
+}
+
+.home-main-content {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 992px) {
+  .home-layout {
+    flex-direction: column;
+  }
+
+  .home-side-visual {
+    flex: none;
+    width: 100%;
+  }
+
+  .city-vertical {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 260px;
+  }
+
+  .city-card {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .side-icons {
+    flex-direction: row;
+  }
+}
