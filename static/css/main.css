@@ -208,28 +208,19 @@ section .main-body{
     width: 300px;
     height: calc(100vh - 64px);
     border-radius: 0;
+    background-image: url('../assets/img/beijing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     overflow: hidden;
     box-shadow: none;
-    background: #ddd;
-}
-
-.global-city-img-rotated {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: calc(100vh - 64px);
-    height: 300px;
-    object-fit: cover;
-    transform: translate(-50%, -50%) rotate(90deg);
-    transform-origin: center center;
 }
 
 .global-city-vertical::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.10);
-    z-index: 1;
+    background: rgba(0,0,0,0.12);
 }
 
 .global-city-card {
