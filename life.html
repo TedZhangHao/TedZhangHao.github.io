@@ -11,8 +11,7 @@
     <link type="text/css" href="static/css/main.css" rel="stylesheet" />
 </head>
 
-<body id="page-top">
-    <!-- Navigation-->
+<body id="page-top" class="life-page">
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a class="navbar-brand fw-bold" href="index.html">Hao Zhang</a>
@@ -26,53 +25,44 @@
 
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="index.html#page-top">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="index.html#publications">PUBLICATIONS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="index.html#patents">PATENTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="index.html#services">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="index.html#awards">AWARDS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="static/assets/CV.pdf" target="_blank">CV</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="life.html">LIFE</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="index.html#page-top">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="index.html#publications">PUBLICATIONS</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="index.html#patents">PATENTS</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="index.html#services">SERVICES</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="index.html#awards">AWARDS</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="static/assets/CV.pdf" target="_blank">CV</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="life.html">LIFE</a></li>
                 </ul>
             </div>
 
-            <button id="theme-toggle">
-                🌙
-            </button>
+            <button id="theme-toggle">🌙</button>
         </div>
     </nav>
 
-    <section style="padding-top: 120px; padding-bottom: 40px;">
+    <main class="life-main">
         <div class="container px-5">
-            <h1 style="margin-bottom: 24px;">Life</h1>
-            <p>Welcome to my life page 🌿</p>
-            <p>
-                This page is for sharing some moments beyond research —
-                daily life, photos, hobbies, travels, and small things I enjoy.
-            </p>
+            <section class="life-hero">
+                <p class="life-kicker">Beyond research</p>
+                <h1 class="life-title">Life</h1>
+                <p class="life-intro">
+                    Welcome to my life page 🌿
+                </p>
+                <p class="life-description">
+                    This page is for sharing some moments beyond research — daily life, photos,
+                    hobbies, travels, and small things I enjoy.
+                </p>
+            </section>
 
-            <h2 style="margin-top: 40px;">Moments</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-top: 20px;">
-                <img src="static/assets/img/life1.jpg" style="width: 100%; border-radius: 14px;" alt="life photo 1">
-                <img src="static/assets/img/life2.jpg" style="width: 100%; border-radius: 14px;" alt="life photo 2">
-                <img src="static/assets/img/life3.jpg" style="width: 100%; border-radius: 14px;" alt="life photo 3">
-            </div>
+            <section class="life-section">
+                <h2 class="life-section-title">Moments</h2>
+                <div class="life-gallery">
+                    <img src="static/assets/img/life1.jpg" alt="life photo 1">
+                    <img src="static/assets/img/life2.jpg" alt="life photo 2">
+                    <img src="static/assets/img/life3.jpg" alt="life photo 3">
+                </div>
+            </section>
         </div>
-    </section>
+    </main>
 
     <script defer src="static/js/bootstrap.bundle.min.js"></script>
 </body>
