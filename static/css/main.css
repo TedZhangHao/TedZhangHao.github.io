@@ -189,6 +189,9 @@ section .main-body {
     font-weight: 300;
     line-height: 2rem;
 }
+section .main-body > *:last-child {
+    margin-bottom: 0;
+}
 
 /* 深色模式下也统一 section 底色 */
 .dark-mode .bg-gradient-primary-to-secondary-light,
