@@ -196,38 +196,38 @@ section .main-body{
 
 .global-side-visual {
     position: fixed;
-    top: 74px;
-    left: calc(50% - 570px + 24px);
-    width: 220px;
+    top: 64px;
+    left: calc(50% - 570px);
+    width: 300px;
     z-index: 9999;
     pointer-events: none;
 }
 
 .global-city-vertical {
     position: relative;
-    width: 220px;
-    height: 620px;
-    border-radius: 18px;
+    width: 300px;
+    height: calc(100vh - 64px);
+    border-radius: 0;
     background-image: url('../assets/img/beijing.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    box-shadow: none;
 }
 
 .global-city-vertical::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.18);
+    background: rgba(0,0,0,0.12);
 }
 
 .global-city-card {
     position: absolute;
-    right: 16px;
+    right: 18px;
     bottom: 18px;
-    left: 16px;
+    left: 18px;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -236,8 +236,8 @@ section .main-body{
 }
 
 .global-profile-inside {
-    width: 120px;
-    height: 155px;
+    width: 128px;
+    height: 165px;
     object-fit: cover;
     border-radius: 12px;
     background: #fff;
@@ -249,7 +249,7 @@ section .main-body{
     gap: 10px;
     padding: 10px 12px;
     border-radius: 12px;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.92);
     pointer-events: auto;
 }
 
@@ -266,22 +266,43 @@ section .main-body{
     transform: translateY(-1px);
 }
 
-/* 只让首页正文给左侧 fixed 视觉栏让位 */
+/* 首页正文避开左侧固定图，不被遮挡 */
 .home-content-wrap {
-    padding-left: 280px !important;
+    padding-left: 410px !important;
+    padding-top: 10px;
 }
 
-/* 其他 section 正常，不需要让出位置 */
+/* 后面 section 与首页正文左边界统一对齐 */
 .section-content-wrap {
-    padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    padding-left: 410px !important;
 }
 
+/* 滚动到锚点时不要被固定导航挡住 */
+#home,
+#publications,
+#patents,
+#awards {
+    scroll-margin-top: 90px;
+}
+
+/* 中等屏幕 */
 @media (max-width: 1200px) {
     .global-side-visual {
-        left: 32px;
+        left: 24px;
+        width: 260px;
+    }
+
+    .global-city-vertical {
+        width: 260px;
+    }
+
+    .home-content-wrap,
+    .section-content-wrap {
+        padding-left: 320px !important;
     }
 }
 
+/* 小屏改回普通顶部展示，不固定左栏 */
 @media (max-width: 992px) {
     .global-side-visual {
         position: relative;
@@ -294,9 +315,10 @@ section .main-body{
 
     .global-city-vertical {
         width: 100%;
-        max-width: 520px;
-        height: 260px;
+        max-width: 560px;
+        height: 280px;
         margin: 0 auto;
+        border-radius: 0;
     }
 
     .global-city-card {
@@ -309,7 +331,8 @@ section .main-body{
         flex-direction: row;
     }
 
-    .home-content-wrap {
+    .home-content-wrap,
+    .section-content-wrap {
         padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
     }
 }
