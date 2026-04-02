@@ -30,7 +30,18 @@ body.dark-mode {
     background-color: #1e1e1e !important;
     --text-color: #f0a500;
 }
+.social-icons .icon-github {
+    color: #000000;
+}
 
+.dark-mode .social-icons .icon-github {
+    color: #ffffff;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+}
 .navbar .nav-link:hover {
     color: #1c64c9 !important;
 }
@@ -68,6 +79,10 @@ body.dark-mode {
 
 .footer a {
     --texr-color: #ffffff !important;
+}
+.container a {
+    color:  #1c64c9;
+    text-decoration: none;
 }
 
 .dark-mode .footer a {
