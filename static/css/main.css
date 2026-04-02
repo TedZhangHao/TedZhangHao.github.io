@@ -303,12 +303,6 @@ section .main-body{
 
     .global-city-vertical {
         width: 260px;
-        height: calc(100vh - 64px);
-    }
-
-    .global-city-img-rotated {
-        width: calc(100vh - 64px);
-        height: 260px;
     }
 
     .home-content-wrap,
@@ -334,13 +328,6 @@ section .main-body{
         height: 280px;
         margin: 0 auto;
         border-radius: 0;
-    }
-
-    .global-city-img-rotated {
-        width: 100%;
-        height: 100%;
-        transform: none;
-        object-fit: cover;
     }
 
     .global-city-card {
