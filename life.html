@@ -14,8 +14,12 @@
 <body id="page-top" class="life-page">
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
-            <a class="navbar-brand fw-bold" href="index.html">Hao Zhang</a>
-            <a href="index.html"><img id="logo" src="static/assets/img/jhu_logo.png" style="width: 2rem;" alt="JHU logo"></a>
+            <div class="d-flex align-items-center gap-3">
+                <a class="navbar-brand fw-bold" href="index.html">Hao Zhang</a>
+                <a href="index.html">
+                    <img id="logo" src="static/assets/img/jhu_logo.png" style="width: 2rem;" alt="JHU logo">
+                </a>
+            </div>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,18 +39,16 @@
                 </ul>
             </div>
 
-            <button id="theme-toggle">🌙</button>
+            <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
         </div>
     </nav>
 
     <main class="life-main">
         <div class="container px-5">
             <section class="life-hero">
-                <p class="life-kicker">Beyond research</p>
+                <p class="life-kicker">Beyond Research</p>
                 <h1 class="life-title">Life</h1>
-                <p class="life-intro">
-                    Welcome to my life page 🌿
-                </p>
+                <p class="life-intro">Welcome to my life page 🌿</p>
                 <p class="life-description">
                     This page is for sharing some moments beyond research — daily life, photos,
                     hobbies, travels, and small things I enjoy.
@@ -65,5 +67,27 @@
     </main>
 
     <script defer src="static/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        (function () {
+            const body = document.body;
+            const toggleBtn = document.getElementById("theme-toggle");
+            const savedTheme = localStorage.getItem("theme");
+
+            if (savedTheme === "dark") {
+                body.classList.add("dark-mode");
+                toggleBtn.textContent = "☀️";
+            } else {
+                toggleBtn.textContent = "🌙";
+            }
+
+            toggleBtn.addEventListener("click", function () {
+                body.classList.toggle("dark-mode");
+                const isDark = body.classList.contains("dark-mode");
+                localStorage.setItem("theme", isDark ? "dark" : "light");
+                toggleBtn.textContent = isDark ? "☀️" : "🌙";
+            });
+        })();
+    </script>
 </body>
 </html>
