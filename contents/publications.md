@@ -11,10 +11,10 @@
             Sequence-Spectrogram Fusion Network for Wind Turbine Diagnosis through Few-Shot Time-Series Classification
         </p>
         <p class="pub-venue">
-            <strong><a href="" target="_blank">Advanced Engineering Informatics</a></strong>, 2025
+            <strong><a href="https://www.sciencedirect.com/journal/advanced-engineering-informatics" target="_blank">Advanced Engineering Informatics</a></strong>, 2025
         </p>
         <p class="pub-links">
-            [<a href="https://link-to-paper.com" target="_blank">Paper</a>]
+            [<a href="https://www.sciencedirect.com/science/article/pii/S147403462400627X" target="_blank">Paper</a>]
             [<a href="https://github.com/TedZhangHao/Few-shot-Time-series-Classification" target="_blank">Code</a>]
         </p>
     </div>
