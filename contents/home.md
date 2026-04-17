@@ -32,7 +32,7 @@
 
 
 ### About me 🙌
-Hi there 👋! My name is **Hao Zhang (张昊)**. The large skyline view above is of my hometown, Beijing, an ancient capital where rich cultural heritage meets a vibrant international outlook. This enduring ethos has quietly shaped who I am and continues to anchor me, wherever life may lead.
+Hi there 👋! My name is **Hao Zhang (张昊)**. The large skyline view above is of my hometown, Beijing, an ancient capital where rich cultural heritage meets a vibrant international outlook. This enduring ethos has quietly shaped who I am and continues to anchor me, wherever life may lead 🍃.
 
 I am currently pursuing my Master's Degree in **Computer Science** at **Johns Hopkins University**, where I also work as a research student at [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) advised by [Prof. Laureano Moro-Velazquez](https://pages.jh.edu/lmorove1/), [Phillip Koehn](https://www.cs.jhu.edu/~phi/), and [Berrak Sisman](https://sites.google.com/view/jhusmile/homepage/about-berrak-sisman).
 
