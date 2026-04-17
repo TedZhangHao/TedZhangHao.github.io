@@ -52,4 +52,4 @@ B.E., Intelligent Medical Engineering, Shandong University, 2020-2024.
 Algorithm Engineering Intern (LLM Optimization), Xunfei Healthcare, Research Institute, iFLYTEK CO.LTD, 2024.7-11.
 
 #### News 📰
-2025.3.4 We submitted a paper to **Interspeech 2026**!
+2026.3.4 We submitted a paper to **Interspeech 2026**!
