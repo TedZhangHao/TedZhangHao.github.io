@@ -32,7 +32,9 @@
 
 
 ### About me 🙌
-Hi there 👋! My name is **Hao Zhang (张昊)**. I am currently pursuing my Master's Degree in **Computer Science** at **Johns Hopkins University**, where I also work as a research student at [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) advised by [Prof. Laureano Moro-Velazquez](https://pages.jh.edu/lmorove1/), [Phillip Koehn](https://www.cs.jhu.edu/~phi/), and [Berrak Sisman](https://sites.google.com/view/jhusmile/homepage/about-berrak-sisman).
+Hi there 👋! My name is **Hao Zhang (张昊)**. The large skyline view above is of my hometown, Beijing, an ancient capital where rich cultural heritage meets a vibrant international outlook. This enduring ethos has quietly shaped who I am and continues to anchor me, wherever life may lead.
+
+I am currently pursuing my Master's Degree in **Computer Science** at **Johns Hopkins University**, where I also work as a research student at [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) advised by [Prof. Laureano Moro-Velazquez](https://pages.jh.edu/lmorove1/), [Phillip Koehn](https://www.cs.jhu.edu/~phi/), and [Berrak Sisman](https://sites.google.com/view/jhusmile/homepage/about-berrak-sisman).
 
 Before coming to JHU, I completed my Bachelor’s degree in **Intelligent Medical Engineering** at **Shandong University**. During that time, I worked as a **research assistant** in the [Key Laboratory of Machine Intelligence & System Control, Ministry of Education](https://misc.sdu.edu.cn/index.htm), where I focused on **Deep learnning-based time series analysis** and **Few-shot learning**, supervised by [Prof. Teng Li](https://faculty.sdu.edu.cn/liteng123/zh_CN/index.htm).  
 
@@ -46,9 +48,8 @@ hzhan276[at]jh.edu
 M.S.E, Computer Science, Johns Hopkins University, 2025-2026 (expected).\
 B.E., Intelligent Medical Engineering, Shandong University, 2020-2024.
 
-
 #### Work Experience 💻
 Algorithm Engineering Intern (LLM Optimization), Xunfei Healthcare, Research Institute, iFLYTEK CO.LTD, 2024.7-11.
 
 #### News 📰
-2025.3.10 We have submitted a paper to **Interspeech 2026**!
+2025.3.4 We submitted a paper to **Interspeech 2026**!
