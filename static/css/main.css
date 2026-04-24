@@ -364,7 +364,17 @@ footer a {
         max-width: 100%;
     }
 }
+.visitor-map {
+    max-width: 320px;
+    margin: 0 auto 1rem auto;
+    overflow: hidden;
+}
 
+.visitor-map canvas,
+.visitor-map iframe,
+.visitor-map div {
+    max-width: 100% !important;
+}
 /* 主题切换按钮 */
 #theme-toggle {
     background: none;
