@@ -86,4 +86,24 @@ window.addEventListener('DOMContentLoaded', event => {
             .catch(error => console.log(error));
     })
 
-}); 
+    // 点击 publication 图片放大
+    const lightbox = document.createElement('div');
+    lightbox.className = 'img-lightbox';
+    lightbox.innerHTML = '<img alt="" />';
+    document.body.appendChild(lightbox);
+    const lightboxImg = lightbox.querySelector('img');
+
+    document.addEventListener('click', e => {
+        if (e.target.classList.contains('pub-image')) {
+            lightboxImg.src = e.target.src;
+            lightboxImg.alt = e.target.alt;
+            lightbox.classList.add('open');
+        } else if (lightbox.contains(e.target)) {
+            lightbox.classList.remove('open');
+        }
+    });
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') lightbox.classList.remove('open');
+    });
+
+});

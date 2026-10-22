@@ -66,33 +66,12 @@
 
 <div class="pub-card">
     <div class="pub-image-wrap">
-        <img src="../contents/picture/TRACE-EVC.png"
-             class="pub-image" alt="TRACE-EVC figure" />
-    </div>
-    <div class="pub-content">
-        <p class="pub-authors">
-            Z. Zhang, S. S. Chandra, Z. Du, X. Zhao, A. Mahapatra, <strong>H. Zhang</strong>, P. Koehn, B. Sisman
-        </p>
-        <p class="pub-title">
-            TRACE-EVC: Text-Guided Relative Affective Control for Zero-Shot Emotional Voice Conversion
-        </p>
-        <p class="pub-venue">
-            <strong>IEEE Open Journal of Signal Processing</strong>, 2026 (Under Review)
-        </p>
-        <p class="pub-links">
-            [<a href="https://arxiv.org/abs/2607.03666" target="_blank">arXiv</a>]
-        </p>
-    </div>
-</div>
-
-<div class="pub-card">
-    <div class="pub-image-wrap">
         <img src="../contents/picture/TRACE.png"
              class="pub-image" alt="TRACE figure" />
     </div>
     <div class="pub-content">
         <p class="pub-authors">
-            S. M. Napa Ugandhar†, <strong>H. Zhang†</strong>, A. Gunzler, Y. Wang, T. Thebaud, G. Tinchev, V. Ravichandran, L. Moro-Velázquez
+            <strong>H. Zhang†</strong>, S. M. Napa Ugandhar†, A. Gunzler, Y. Wang, T. Thebaud, G. Tinchev, V. Ravichandran, L. Moro-Velázquez
         </p>
         <p class="pub-title">
             TRACE: Temporal Relationship-Aware Conversational Entrainment Detection in Dyadic Speech
@@ -130,29 +109,6 @@
         </p>
     </div>
 </div>
-
-<div class="pub-card">
-    <div class="pub-image-wrap">
-        <img src="../contents/picture/SPEARBench.png"
-             class="pub-image" alt="SPEARBench figure" />
-    </div>
-    <div class="pub-content">
-        <p class="pub-authors">
-            T. Thebaud, Y. Wang, <strong>H. Zhang</strong>, S. M. Napa Ugandhar, A. Hallur, G. Tinchev, V. Ravichandran, L. Moro-Velázquez
-        </p>
-        <p class="pub-title">
-            SPEARBench: A Benchmark for Naturalness Evaluation in Streaming Speech-to-Speech Language Models
-        </p>
-        <p class="pub-venue">
-            <strong>Computer Speech & Language</strong>, 2026 (Under Review)
-        </p>
-        <p class="pub-links">
-            [<a href="https://arxiv.org/abs/2607.05365" target="_blank">arXiv</a>]
-        </p>
-    </div>
-</div>
-
-#### Signal Processing & Time Series Analysis
 
 <div class="pub-card">
     <div class="pub-image-wrap">
