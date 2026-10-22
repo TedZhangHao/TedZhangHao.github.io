@@ -135,6 +135,20 @@ section .main-body > *:last-child {
     margin-top: 0;
 }
 
+.pub-note {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+.dark-mode .pub-note {
+    color: #bbb;
+}
+
+#publications h4 {
+    margin: 26px 0 14px 0;
+}
+
 /* 导航栏 */
 .navbar .nav-link {
     color: #333;

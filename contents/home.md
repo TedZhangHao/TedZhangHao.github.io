@@ -34,11 +34,11 @@
 ### About me 🙌
 Hi there 👋! My name is **Hao Zhang (张昊)**. The large skyline view above is of my hometown, Beijing, an ancient capital where rich cultural heritage meets a vibrant international outlook. This enduring ethos has quietly shaped who I am and continues to anchor me, wherever life may lead 🍃.
 
-I am currently pursuing my Master's Degree in **Computer Science** at **Johns Hopkins University**, where I also work as a research student at [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) advised by [Prof. Laureano Moro-Velazquez](https://pages.jh.edu/lmorove1/), [Phillip Koehn](https://www.cs.jhu.edu/~phi/), and [Berrak Sisman](https://sites.google.com/view/jhusmile/homepage/about-berrak-sisman).
+I am currently pursuing my Master's Degree in **Computer Science** at **Johns Hopkins University**, where I also work as a research student at [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) advised by [Prof. Laureano Moro-Velazquez](https://pages.jh.edu/lmorove1/), [Philipp Koehn](https://www.cs.jhu.edu/~phi/), and [Berrak Sisman](https://sites.google.com/view/jhusmile/homepage/about-berrak-sisman). Since August 2026, I have also been a research assistant at the [Human Language Technology Center of Excellence (HLTCOE)](https://hltcoe.jhu.edu/), working with [Prof. Kevin Duh](https://www.cs.jhu.edu/~kevinduh/) on enhancing LLMs to translate low-resource languages.
 
-Before coming to JHU, I completed my Bachelor’s degree in **Intelligent Medical Engineering** at **Shandong University**. During that time, I worked as a **research assistant** in the [Key Laboratory of Machine Intelligence & System Control, Ministry of Education](https://misc.sdu.edu.cn/index.htm), where I focused on **Deep learnning-based time series analysis** and **Few-shot learning**, supervised by [Prof. Teng Li](https://faculty.sdu.edu.cn/liteng123/zh_CN/index.htm).  
+Before coming to JHU, I completed my Bachelor’s degree in **Intelligent Medical Engineering** at **Shandong University**. During that time, I worked as a **research assistant** in the [Key Laboratory of Machine Intelligence & System Control, Ministry of Education](https://misc.sdu.edu.cn/index.htm), where I focused on **Deep learning-based time series analysis** and **Few-shot learning**, supervised by [Prof. Teng Li](https://faculty.sdu.edu.cn/liteng123/zh_CN/index.htm).  
 
-My current research interests spans **SpeechLLMs Naturalness**, **Expressive Machine Translation** and **LLM-enhanced data augmentation for aspect-based sentiment analysis (ABSA)**. I am conducting independent research on these areas and with excitement to discuss and collaborate. Please feel free to contact me!
+My current research interests span **Expressive Speech Translation**, **Full-duplex / Conversational Naturalness** of SpeechLLMs, **Sentiment Analysis**, and **Low-Resource Languages**. I am conducting independent research on these areas and with excitement to discuss and collaborate. Please feel free to contact me!
 
 #### Contact 📧
 haozhang1639[at]gmail.com (preferred)\
@@ -52,4 +52,7 @@ B.E., Intelligent Medical Engineering, Shandong University, 2020-2024.
 Algorithm Engineering Intern (LLM Optimization), Xunfei Healthcare, Research Institute, iFLYTEK CO.LTD, 2024.7-11.
 
 #### News 📰
-2026.3.4 We submitted a paper to **Interspeech 2026**!
+2026.10 We submitted a paper on document-level aspect-based sentiment analysis to **NAACL 2027**!\
+2026.9 Two papers submitted to **ICLR 2027** and **ICASSP 2027**!\
+2026.8 [TRACE](https://arxiv.org/abs/2606.30543) is accepted to **IEEE SLT 2026**! 🎉\
+2026.7 [TurnNat](https://arxiv.org/abs/2607.01345) and [SPEARBench](https://arxiv.org/abs/2607.05365) are released on arXiv!
