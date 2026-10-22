@@ -8,3 +8,4 @@
 
 #### Other Academic Services
 - **Student Admission Reviewer**, *Program MSE in Computer Science*, Johns Hopkins University, 2026
+- **WSE Peer Navigator** (volunteer), Whiting School of Engineering, Johns Hopkins University

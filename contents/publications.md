@@ -1,49 +1,11 @@
 <p class="pub-note">† indicates equal contribution, * indicates corresponding author.</p>
 
-#### Speech & Language Processing
+#### Expressive Speech Generation & Translation
 
-<div class="pub-card">
-    <div class="pub-image-wrap">
-        <img src="../contents/picture/DL-ABSA.png"
-             class="pub-image" alt="KASM pipeline figure" />
-    </div>
-    <div class="pub-content">
-        <p class="pub-authors">
-            <strong>H. Zhang</strong>, R. Liu, C. Li, P. Koehn
-        </p>
-        <p class="pub-title">
-            Learning Sentiment Dynamics: Knowledge-Augmented Sequence Modeling for Document-Level Aspect-Based Sentiment Analysis
-        </p>
-        <p class="pub-venue">
-            <strong>The 2027 Annual Conference of the Nations of the Americas Chapter of the ACL</strong>
-            (<strong><a href="https://2027.naacl.org/" target="_blank">NAACL</a></strong>), 2027 (Under Review)
-        </p>
-    </div>
-</div>
-
-<div class="pub-card">
-    <div class="pub-image-wrap">
-        <img src="../contents/picture/CONTACT.png"
-             class="pub-image" alt="CONTACT overview figure" />
-    </div>
-    <div class="pub-content">
-        <p class="pub-authors">
-            <strong>H. Zhang</strong>, H. Gundecha, S. Dhupar, V. Ravichandran, L. Moro-Velázquez
-        </p>
-        <p class="pub-title">
-            CONTACT: A Human-Grounded Benchmark and Surprisal-Based Predictive Scorer for Conversational Naturalness
-        </p>
-        <p class="pub-venue">
-            <strong>The Fifteenth International Conference on Learning Representations</strong>
-            (<strong><a href="https://iclr.cc/Conferences/2027/index.html" target="_blank">ICLR</a></strong>), 2027 (Under Review)
-        </p>
-    </div>
-</div>
-
-<div class="pub-card">
+<div class="pub-card pub-card-wide">
     <div class="pub-image-wrap">
         <img src="../contents/picture/VC-Dub-S2ST.png"
-             class="pub-image" alt="VC-Dub parallel supervision figure" />
+             class="pub-image" alt="Holistic parallel supervision and DirectS2ST overview figure" />
     </div>
     <div class="pub-content">
         <p class="pub-authors">
@@ -64,7 +26,28 @@
     </div>
 </div>
 
-<div class="pub-card">
+#### Full-Duplex Dialogue & Conversational Naturalness
+
+<div class="pub-card pub-card-wide">
+    <div class="pub-image-wrap">
+        <img src="../contents/picture/CONTACT.png"
+             class="pub-image" alt="CONTACT overview figure" />
+    </div>
+    <div class="pub-content">
+        <p class="pub-authors">
+            <strong>H. Zhang</strong>, H. Gundecha, S. Dhupar, V. Ravichandran, L. Moro-Velázquez
+        </p>
+        <p class="pub-title">
+            CONTACT: A Human-Grounded Benchmark and Surprisal-Based Predictive Scorer for Conversational Naturalness
+        </p>
+        <p class="pub-venue">
+            <strong>The Fifteenth International Conference on Learning Representations</strong>
+            (<strong><a href="https://iclr.cc/Conferences/2027/index.html" target="_blank">ICLR</a></strong>), 2027 (Under Review)
+        </p>
+    </div>
+</div>
+
+<div class="pub-card pub-card-wide">
     <div class="pub-image-wrap">
         <img src="../contents/picture/TRACE.png"
              class="pub-image" alt="TRACE figure" />
@@ -86,7 +69,7 @@
     </div>
 </div>
 
-<div class="pub-card">
+<div class="pub-card pub-card-wide">
     <div class="pub-image-wrap">
         <img src="../contents/picture/TurnNat.png"
              class="pub-image" alt="TurnNat figure" />
@@ -109,6 +92,29 @@
         </p>
     </div>
 </div>
+
+#### Sentiment Analysis
+
+<div class="pub-card pub-card-wide">
+    <div class="pub-image-wrap">
+        <img src="../contents/picture/DL-ABSA.png"
+             class="pub-image" alt="KASM pipeline figure" />
+    </div>
+    <div class="pub-content">
+        <p class="pub-authors">
+            <strong>H. Zhang</strong>, R. Liu, C. Li, P. Koehn
+        </p>
+        <p class="pub-title">
+            Learning Sentiment Dynamics: Knowledge-Augmented Sequence Modeling for Document-Level Aspect-Based Sentiment Analysis
+        </p>
+        <p class="pub-venue">
+            <strong>The 2027 Annual Conference of the Nations of the Americas Chapter of the ACL</strong>
+            (<strong><a href="https://2027.naacl.org/" target="_blank">NAACL</a></strong>), 2027 (Under Review)
+        </p>
+    </div>
+</div>
+
+#### Time Series & Signal Processing
 
 <div class="pub-card">
     <div class="pub-image-wrap">
@@ -134,28 +140,6 @@
 
 <div class="pub-card">
     <div class="pub-image-wrap">
-        <img src="../contents/picture/HFT-LLM.png"
-             class="pub-image" alt="HFT-LLM figure" />
-    </div>
-    <div class="pub-content">
-        <p class="pub-authors">
-            Z. Pang, <strong>H. Zhang</strong>, T. Li*
-        </p>
-        <p class="pub-title">
-            Hybrid Fine-Tuning in Large Language Model Learning for Machinery Fault Diagnosis
-        </p>
-        <p class="pub-venue">
-            <strong>22nd IEEE International Conference on Industrial Informatics</strong>
-            (<strong><a href="https://indin2024.ieee-ies.org/" target="_blank">INDIN</a></strong>), 2024
-        </p>
-        <p class="pub-links">
-            [<a href="https://ieeexplore.ieee.org/abstract/document/10774330" target="_blank">Paper</a>]
-        </p>
-    </div>
-</div>
-
-<div class="pub-card">
-    <div class="pub-image-wrap">
         <img src="../contents/picture/RICAI.png"
              class="pub-image" alt="SSNN model figure" />
     </div>
@@ -172,6 +156,28 @@
         </p>
         <p class="pub-links">
             [<a href="https://ieeexplore.ieee.org/abstract/document/10489648" target="_blank">Paper</a>]
+        </p>
+    </div>
+</div>
+
+<div class="pub-card">
+    <div class="pub-image-wrap">
+        <img src="../contents/picture/HFT-LLM.png"
+             class="pub-image" alt="HFT-LLM figure" />
+    </div>
+    <div class="pub-content">
+        <p class="pub-authors">
+            Z. Pang, <strong>H. Zhang</strong>, T. Li*
+        </p>
+        <p class="pub-title">
+            Hybrid Fine-Tuning in Large Language Model Learning for Machinery Fault Diagnosis
+        </p>
+        <p class="pub-venue">
+            <strong>22nd IEEE International Conference on Industrial Informatics</strong>
+            (<strong><a href="https://indin2024.ieee-ies.org/" target="_blank">INDIN</a></strong>), 2024
+        </p>
+        <p class="pub-links">
+            [<a href="https://ieeexplore.ieee.org/abstract/document/10774330" target="_blank">Paper</a>]
         </p>
     </div>
 </div>

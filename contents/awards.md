@@ -1,3 +1,3 @@
-- Honors Graduate Student in Shandong University, 2024.
+- Outstanding Graduate of Shandong University (Top 5 in Major), 2024.
 - Academic Scholarship of Shandong University, 2023.
 - Academic Scholarship of Shandong University, 2022.

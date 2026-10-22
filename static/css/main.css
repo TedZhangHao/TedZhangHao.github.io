@@ -322,6 +322,16 @@ footer a {
     flex-shrink: 0;
 }
 
+/* 宽图：图片在上占满整卡，文字在下 */
+.pub-card-wide {
+    flex-direction: column;
+}
+
+.pub-card-wide .pub-image-wrap {
+    width: 100%;
+    max-width: 100%;
+}
+
 .pub-image {
     width: 100%;
     height: auto;
