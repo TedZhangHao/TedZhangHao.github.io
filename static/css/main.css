@@ -328,8 +328,9 @@ footer a {
 }
 
 .pub-card-wide .pub-image-wrap {
-    width: 100%;
-    max-width: 100%;
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .pub-image {
@@ -408,7 +409,8 @@ footer a {
         flex-direction: column;
     }
 
-    .pub-image-wrap {
+    .pub-image-wrap,
+    .pub-card-wide .pub-image-wrap {
         width: 100%;
         max-width: 100%;
     }
