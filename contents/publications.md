@@ -65,6 +65,9 @@
         </p>
         <p class="pub-links">
             [<a href="https://arxiv.org/abs/2606.30543" target="_blank">arXiv</a>]
+            [<a href="https://sathviknapa.github.io/NaturalnessPrediction" target="_blank">Demo</a>]
+            [<a href="https://github.com/SathvikNapa/NaturalnessPrediction" target="_blank">Code</a>]
+            [<a href="https://huggingface.co/datasets/SathvikNapa/TRACE" target="_blank">Dataset</a>]
         </p>
     </div>
 </div>
