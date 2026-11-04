@@ -1,31 +1,5 @@
 <p class="pub-note">† indicates equal contribution, * indicates corresponding author.</p>
 
-#### Expressive Speech Generation & Translation
-
-<div class="pub-card pub-card-wide">
-    <div class="pub-image-wrap">
-        <img src="../contents/picture/VC-Dub-S2ST.png"
-             class="pub-image" alt="Holistic parallel supervision and DirectS2ST overview figure" />
-    </div>
-    <div class="pub-content">
-        <p class="pub-authors">
-            <strong>H. Zhang</strong>, I. R. Ulgen, B. B. Odoom, R. Liu, Z. Zhang, B. Sisman, P. Koehn
-        </p>
-        <p class="pub-title">
-            Holistic Parallel Supervision for Expressive Speech to Speech Translation
-        </p>
-        <p class="pub-venue">
-            <strong>2027 IEEE International Conference on Acoustics, Speech, and Signal Processing</strong>
-            (<strong><a href="https://2027.ieeeicassp.org/" target="_blank">ICASSP</a></strong>), 2027 (Under Review)
-        </p>
-        <p class="pub-links">
-            [<a href="https://hzted.github.io/truly-e2e-expressive-s2st-demo" target="_blank">Demo</a>]
-            [<a href="https://github.com/hzted/truly-e2e-expressive-s2st-demo" target="_blank">Code</a>]
-            [<a href="https://huggingface.co/TedZhangHao/DirectS2ST" target="_blank">Model</a>]
-        </p>
-    </div>
-</div>
-
 #### Full-Duplex Dialogue & Conversational Naturalness
 
 <div class="pub-card pub-card-wide">
@@ -92,6 +66,32 @@
             [<a href="https://hzted.github.io/turnnat-benchmark/" target="_blank">Demo</a>]
             [<a href="https://github.com/hzted/turnnat-benchmark" target="_blank">Code</a>]
             [<a href="https://huggingface.co/datasets/hzted/turnnat-benchmark" target="_blank">Dataset</a>]
+        </p>
+    </div>
+</div>
+
+#### Expressive Speech Generation & Translation
+
+<div class="pub-card pub-card-wide">
+    <div class="pub-image-wrap">
+        <img src="../contents/picture/VC-Dub-S2ST.png"
+             class="pub-image" alt="Holistic parallel supervision and DirectS2ST overview figure" />
+    </div>
+    <div class="pub-content">
+        <p class="pub-authors">
+            <strong>H. Zhang</strong>, I. R. Ulgen, B. B. Odoom, R. Liu, Z. Zhang, B. Sisman, P. Koehn
+        </p>
+        <p class="pub-title">
+            Holistic Parallel Supervision for Expressive Speech to Speech Translation
+        </p>
+        <p class="pub-venue">
+            <strong>2027 IEEE International Conference on Acoustics, Speech, and Signal Processing</strong>
+            (<strong><a href="https://2027.ieeeicassp.org/" target="_blank">ICASSP</a></strong>), 2027 (Under Review)
+        </p>
+        <p class="pub-links">
+            [<a href="https://hzted.github.io/truly-e2e-expressive-s2st-demo" target="_blank">Demo</a>]
+            [<a href="https://github.com/hzted/truly-e2e-expressive-s2st-demo" target="_blank">Code</a>]
+            [<a href="https://huggingface.co/TedZhangHao/DirectS2ST" target="_blank">Model</a>]
         </p>
     </div>
 </div>
