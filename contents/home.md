@@ -40,7 +40,7 @@ Before coming to JHU, I completed my Bachelor’s degree in **Intelligent Medica
 
 My current research interests span **Expressive Speech Translation**, **Full-Duplex Spoken Dialogue & Conversational Naturalness**, and **Low-Resource Speech**. I am conducting research in these areas and am always excited to discuss and collaborate. Please feel free to contact me!
 
-Outside of research, I've been playing acoustic guitar for almost ten years. I especially love solo **fingerstyle** pieces, and I also enjoy singing and accompanying myself on guitar. It's my favorite way to unwind from the stress of study and work <img src="static/assets/img/acoustic-guitar.svg" alt="acoustic guitar" style="height:1.3em;vertical-align:-0.25em" />.
+Outside of research, I've been playing acoustic guitar <img src="static/assets/img/acoustic-guitar.svg" alt="acoustic guitar" style="height:1.3em;vertical-align:-0.25em" /> for almost ten years. I especially love solo **fingerstyle** pieces, and I also enjoy singing and accompanying myself on guitar. It's my favorite way to unwind from the stress of study and work 🎶.
 
 #### Contact 📧
 haozhang1639[at]gmail.com (preferred)\
