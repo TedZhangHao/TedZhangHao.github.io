@@ -51,11 +51,11 @@ M.S.E, Computer Science, Johns Hopkins University, 2025-2026 (expected).\
 B.E., Intelligent Medical Engineering, Shandong University, 2020-2024.
 
 #### Work Experience 💻
-Research Assistant, Center of Language and Speech Processing (CLSP), Johns Hopkins University, 2025.12-present.
+Research Assistant, Center for Language and Speech Processing (CLSP), Johns Hopkins University, 2025.11-present.
 
-Algorithm Engineering Intern (LLM Optimization), Xunfei Healthcare, Research Institute, iFLYTEK CO.LTD, 2024.7-2024.11.
+Algorithm Engineer Intern (LLM Optimization), Xunfei Healthcare, Research Institute, iFLYTEK CO.LTD, 2024.7-2024.11.
 
-Research Assistant, Key Laboratory of Machine Intelligence & System Control, Ministry of Education, Shandong University, 2023.9-2024.6.
+Research Assistant, Key Laboratory of Machine Intelligence & System Control, Ministry of Education, Shandong University, 2023.7-2024.6.
 #### News 📰
 2026.10 We submitted a paper on document-level aspect-based sentiment analysis to **NAACL 2027**!\
 2026.9 Two papers submitted to **ICLR 2027** and **ICASSP 2027**!\
