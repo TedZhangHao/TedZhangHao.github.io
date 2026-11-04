@@ -38,7 +38,9 @@ I am currently pursuing my Master's Degree in **Computer Science** at **Johns Ho
 
 Before coming to JHU, I completed my Bachelor’s degree in **Intelligent Medical Engineering** at **Shandong University**. During that time, I worked as a **research assistant** in the [Key Laboratory of Machine Intelligence & System Control, Ministry of Education](https://misc.sdu.edu.cn/index.htm), where I focused on **Deep learning-based time series analysis** and **Few-shot learning**, supervised by [Prof. Teng Li](https://faculty.sdu.edu.cn/liteng123/zh_CN/index.htm).  
 
-My current research interests span **Expressive Speech Translation**, **Full-Duplex Spoken Dialogue & Conversational Naturalness**, and **Low-Resource Speech**. I am conducting independent research on these areas and with excitement to discuss and collaborate. Please feel free to contact me!
+My current research interests span **Expressive Speech Translation**, **Full-Duplex Spoken Dialogue & Conversational Naturalness**, and **Low-Resource Speech**. I am conducting research in these areas and am always excited to discuss and collaborate. Please feel free to contact me!
+
+Outside of research, I've been playing acoustic guitar for almost ten years. I especially love solo **fingerstyle** pieces, and I also enjoy singing and accompanying myself on guitar. It's my favorite way to unwind from the stress of study and work <img src="static/assets/img/acoustic-guitar.svg" alt="acoustic guitar" style="height:1.3em;vertical-align:-0.25em" />.
 
 #### Contact 📧
 haozhang1639[at]gmail.com (preferred)\
@@ -49,8 +51,11 @@ M.S.E, Computer Science, Johns Hopkins University, 2025-2026 (expected).\
 B.E., Intelligent Medical Engineering, Shandong University, 2020-2024.
 
 #### Work Experience 💻
-Algorithm Engineering Intern (LLM Optimization), Xunfei Healthcare, Research Institute, iFLYTEK CO.LTD, 2024.7-11.
+Research Assistant, Center of Language and Speech Processing (CLSP), Johns Hopkins University, 2025.12-present.
 
+Algorithm Engineering Intern (LLM Optimization), Xunfei Healthcare, Research Institute, iFLYTEK CO.LTD, 2024.7-2024.11.
+
+Research Assistant, Key Laboratory of Machine Intelligence & System Control, Ministry of Education, Shandong University, 2023.9-2024.6.
 #### News 📰
 2026.10 We submitted a paper on document-level aspect-based sentiment analysis to **NAACL 2027**!\
 2026.9 Two papers submitted to **ICLR 2027** and **ICASSP 2027**!\
