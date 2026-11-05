@@ -58,4 +58,4 @@ Research Assistant, Key Laboratory of Machine Intelligence & System Control, Min
 2026.10 We submitted a paper on document-level aspect-based sentiment analysis to **NAACL 2027**!\
 2026.9 Two papers submitted to **ICLR 2027** and **ICASSP 2027**!\
 2026.8 [TRACE](https://arxiv.org/abs/2606.30543) is accepted to **IEEE SLT 2026**! 🎉\
-2026.7 [TurnNat](https://arxiv.org/abs/2607.01345) is released on arXiv!
+2026.7 [TurnNat](https://arxiv.org/abs/2607.01345) paper is released!

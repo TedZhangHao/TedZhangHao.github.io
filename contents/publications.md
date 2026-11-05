@@ -38,7 +38,7 @@
             (<strong><a href="https://attend.ieee.org/slt-2026/" target="_blank">SLT</a></strong>), 2026
         </p>
         <p class="pub-links">
-            [<a href="https://arxiv.org/abs/2606.30543" target="_blank">arXiv</a>]
+            [<a href="https://arxiv.org/abs/2606.30543" target="_blank">Paper</a>]
             [<a href="https://sathviknapa.github.io/NaturalnessPrediction" target="_blank">Demo</a>]
             [<a href="https://github.com/SathvikNapa/NaturalnessPrediction" target="_blank">Code</a>]
             [<a href="https://huggingface.co/datasets/SathvikNapa/TRACE" target="_blank">Dataset</a>]
@@ -59,10 +59,10 @@
             TurnNat: Automatic Evaluation of Turn-Taking Naturalness in Dyadic Spoken Dialogue
         </p>
         <p class="pub-venue">
-            <strong>arXiv preprint</strong>, 2026
+            <strong>Preprint</strong>, 2026
         </p>
         <p class="pub-links">
-            [<a href="https://arxiv.org/abs/2607.01345" target="_blank">arXiv</a>]
+            [<a href="https://arxiv.org/abs/2607.01345" target="_blank">Paper</a>]
             [<a href="https://hzted.github.io/turnnat-benchmark/" target="_blank">Demo</a>]
             [<a href="https://github.com/hzted/turnnat-benchmark" target="_blank">Code</a>]
             [<a href="https://huggingface.co/datasets/hzted/turnnat-benchmark" target="_blank">Dataset</a>]
@@ -89,6 +89,7 @@
             (<strong><a href="https://2027.ieeeicassp.org/" target="_blank">ICASSP</a></strong>), 2027 (Under Review)
         </p>
         <p class="pub-links">
+            [<a href="https://arxiv.org/abs/2611.06010" target="_blank">Paper</a>]
             [<a href="https://hzted.github.io/truly-e2e-expressive-s2st-demo" target="_blank">Demo</a>]
             [<a href="https://github.com/hzted/truly-e2e-expressive-s2st-demo" target="_blank">Code</a>]
             [<a href="https://huggingface.co/TedZhangHao/DirectS2ST" target="_blank">Model</a>]
